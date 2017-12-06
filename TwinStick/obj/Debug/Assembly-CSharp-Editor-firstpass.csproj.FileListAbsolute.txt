@@ -74,3 +74,4 @@ D:\WIP\TSGit\TwinStick\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
 D:\WIP\TSGit\TwinStick\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojResolveAssemblyReference.cache
 D:\WIP\TSGit\TwinStick\obj\Debug\Assembly-CSharp-Editor-firstpass.dll
 D:\WIP\TSGit\TwinStick\obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
+D:\WIP\TSGit\TwinStick\Temp\bin\Debug\UnityEngine.Advertisements.dll

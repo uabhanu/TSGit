@@ -40,3 +40,4 @@ D:\WIP\TSGit\TwinStick\Temp\bin\Debug\UnityEngine.HoloLens.xml
 D:\WIP\TSGit\TwinStick\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 D:\WIP\TSGit\TwinStick\obj\Debug\Assembly-CSharp.dll
 D:\WIP\TSGit\TwinStick\obj\Debug\Assembly-CSharp.pdb
+D:\WIP\TSGit\TwinStick\Temp\bin\Debug\UnityEngine.Advertisements.dll
