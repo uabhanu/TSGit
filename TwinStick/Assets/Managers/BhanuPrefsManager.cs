@@ -9,6 +9,14 @@ public class BhanuPrefsManager : MonoBehaviour
     const string DIFFICULTY_KEY = "Difficulty";
     const string LEVEL_KEY = "LevelUnlocked";
 
+    /// <summary>
+    /// Removes all keys and values from Bhanu's Preferences so use with caution.
+    /// </summary>
+    public static void DeleteAll()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+
     public static float GetDifficulty()
     {
         return PlayerPrefs.GetFloat(DIFFICULTY_KEY);
@@ -26,11 +34,11 @@ public class BhanuPrefsManager : MonoBehaviour
 
         if(level <= SceneManager.sceneCountInBuildSettings - 1)
         {
-            return isUnlocked;
+                return isUnlocked;
         }
         else
         {
-            Debug.LogError("Mr. Bhanu Sir, You are trying to unlock level that doesn't exist");
+            Debug.LogError("Sir Bhanu, You are trying to unlock level that doesn't exist");
             return false;
         }
     }
@@ -43,7 +51,7 @@ public class BhanuPrefsManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Mr. Bhanu Sir, Difficulty is out of range");
+            Debug.LogError("Sir Bhanu, Difficulty is out of range");
         }
     }
 
@@ -55,7 +63,7 @@ public class BhanuPrefsManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Mr. Bhanu Sir, Master Volume out of Range");
+            Debug.LogError("Sir Bhanu, Master Volume out of Range");
         }
     }
 
@@ -67,7 +75,7 @@ public class BhanuPrefsManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Mr. Bhanu Sir, You are trying to unlock level that doesn't exist");
+            Debug.LogError("Sir Bhanu, You are trying to unlock level that doesn't exist");
         }
     }
 }

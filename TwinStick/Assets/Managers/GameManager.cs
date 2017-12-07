@@ -9,9 +9,10 @@ public class GameManager : MonoBehaviour
 
 	void Start() 
     {
+        BhanuPrefsManager.DeleteAll(); //This is for Testing purposes only and remove this for Live version
 		BhanuPrefsManager.UnlockLevel(2);
-        Debug.Log(BhanuPrefsManager.IsLevelUnlocked(1)); //This should return false according to tutorial but returning true
         Debug.Log(BhanuPrefsManager.IsLevelUnlocked(2));
+        Debug.Log(BhanuPrefsManager.IsLevelUnlocked(1));
 	}
 
 	void Update() 
